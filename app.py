@@ -19,7 +19,7 @@ def find_file_size(upfile):
     file_size = upfile.tell()
     return file_size
 
-api.add_resource(FileMetadata, '/api/file-metadata/')
+api.add_resource(FileMetadata, '/api/fileanalyze/')
 
 if __name__ == '__main__':
     app.run(debug=True)
